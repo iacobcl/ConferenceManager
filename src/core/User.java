@@ -19,6 +19,11 @@ public class User {
 		this.progs = new ArrayList<DailyProgramme>();
 	}
 
+	public User(String name)
+	{
+		super();
+		this.name = name;
+	}
 
 	public User(String name, boolean presents, String affiliation, ArrayList<DailyProgramme> progs) {
 		super();
