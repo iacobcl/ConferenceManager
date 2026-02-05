@@ -1,6 +1,8 @@
 package core;
 import java.util.Date;
 
+import storage.DatabaseManager;
+
 public class Talk {
 	
 	private String title;
@@ -53,6 +55,12 @@ public class Talk {
 		this.room = room;
 	}
 	
-	
+	public void addTalkToDb()
+	{
+		DatabaseManager db = new DatabaseManager();
+		db.addTalk(this);
+		
+	}
 
+	
 }
