@@ -74,10 +74,10 @@ public class DatabaseManager {
  	        DatabaseManager db = new DatabaseManager();
  	        
  	        User author = new User();
- 	        author.setName("John");
+ 	        author.setName("Jane");
  	        Talk talk = new Talk();
  	        talk.setAuthor(author);
- 	        talk.setTitle("New software");
+ 	        talk.setTitle("Automated testing");
  	        
  	        db.addTalk(talk);
 
