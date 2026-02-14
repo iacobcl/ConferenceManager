@@ -4,16 +4,43 @@ import java.util.ArrayList;
 import java.util.Date;
 
 
-
+/**
+ * The class defines a Conference. 
+ * @since 2026
+ * @version 1.0.0
+ * @author CI
+ */
 public class Conference {
 	
+	/**
+	 * Name - name of the conference
+	 */
 	private String name;
+	
+	/**
+	 * startDate - start date of the conference
+	 */
 	private Date startDate;
+	
+	/**
+	 * endDate - end date of the conference
+	 */
 	private Date endDate;
+	
+	/**
+	 * places - country where conference is held
+	 */
 	public enum places {UK, France, Spain, Italy, Sweden;} 
-	private String country; 
+	
+	/**
+	 * city - city where conference is held
+	 */
 	private String city;
-	private ArrayList<DailyProgramme> prog;
+	
+	/**
+	 * prog - list of daily programmes associated with the conference
+	 */
+	public ArrayList<DailyProgramme> prog;
 	
 	
 	
@@ -31,12 +58,14 @@ public class Conference {
 		this.name = name;
 		this.startDate = startDate;
 		this.endDate = endDate;
-		this.country = country;
 		this.city = city;
 		this.prog = prog; 
 	}
 	
-	//Getters and setters
+	/**
+	 * The method returns the name of a conference
+	 * @return String, the name of the conference
+	 */
 	public String getName() {
 		return name;
 	}

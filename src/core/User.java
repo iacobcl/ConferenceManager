@@ -2,6 +2,13 @@ package core;
 
 import java.util.ArrayList;
 
+
+/**
+ * The class defines a User. 
+ * @since 2026
+ * @version 1.0.0
+ * @author CI
+ */
 public class User {
 	
 	private String name;

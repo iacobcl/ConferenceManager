@@ -1,5 +1,12 @@
 package core;
 
+
+/**
+ * The class defines a Location. 
+ * @since 2026
+ * @version 1.0.0
+ * @author CI
+ */
 public class Location {
 	
 	private String building;

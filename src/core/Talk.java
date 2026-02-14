@@ -3,6 +3,13 @@ import java.util.Date;
 
 import storage.DatabaseManager;
 
+
+/**
+ * The class defines a Talk. 
+ * @since 2026
+ * @version 1.0.0
+ * @author CI
+ */
 public class Talk {
 	
 	private String title;

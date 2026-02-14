@@ -3,6 +3,12 @@ package core;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * The class defines a Daily programme. 
+ * @since 2026
+ * @version 1.0.0
+ * @author CI
+ */
 public class DailyProgramme {
 	
 	private ArrayList<Talk> talks;
